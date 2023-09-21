@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <link href="styles.css" rel="stylesheet" />
     <link
-      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;700;900&display=swap"
+      href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
     <title>Heidi's Portfolio</title>
@@ -15,14 +15,91 @@
         <span class="name mb-2">Hi, my name is Heidi</span>
         <span class="mb-2">
           I’m a
-          <mark class="primary-gradient">Fullstack Developer</mark> <br />
+          <mark class="primary-gradient">Software Developer</mark> <br />
           with a <mark class="primary-gradient">passion to learn</mark> something new every day.
         </span>
       </h1>
 
     </header>
     <main>
+      <section class="with-bg">
+        
+        <div class="about-me container">
+          
+          <div class="container-full">
+            <h2 class="primary-gradient uppercase mb-3">About me</h2>
+            <p class="mb-2">
+              For the last 5 months I've been honing my coding skills in Integrify Academy. ja tähän jotain mitä kaikkea hienoa ja tärkeää olen oppinut.
+            </p>
+            <p class="mb-2">
+              I've studied Mathematics as major in University of Helsinki with Computer Science as minor,
+              so it has left me equipped with valuable skills, such as breaking down complex problems into more manageable
+              sized puzzles, sharp analytical thinking and exquicite logical reasoning.
+            </p>
+            <p>I'm also a gardener, so I value beauty and simplicity in code, and definitely understand the value of maintainabiltiy.</p>
+          </div>
+          <img class="profilepic" src="profilepic.png">
+        </div>
+      </section>
+      <section class="container-full projects-section">
+        <h2 class="primary-gradient uppercase mb-3">projects</h2>
+        <div class="projects">
+          <div class="project">
+            <h3 class="title">Spellbook project</h3>
+            <div class="skills">
+              <span>React</span>
+              <span>TS</span>
+              <span>Material UI</span>
+            </div>
+            <p class="description">
+              One of my favourite pasttime hobbies is tabletop role-playing.
+              This project is to help managing spells while playing D&D, for both players and DMs.
+              User can view selected spells in one page for easier management.
 
+            </p>
+            <div class="actions">
+              <button class="btn btn-primary" onclick="window.location.href='https://spellbook-beta.vercel.app/';">Visit</button>
+              <button class="btn btn-secondary" onclick="window.location.href='https://github.com/rheidi/loitsulo';">Source code</button>
+            </div>
+          </div>
+          <div class="project">
+            <h3 class="title">Library system</h3>
+            <div class="skills">
+              <span>TS</span>
+              <span>React</span>              
+              <span>Redux</span>
+              <span>C#</span>
+              <span>.NET</span>
+              <span>EF Core</span>
+              <span>Postgres</span>
+            </div>
+            <p class="description">
+              As I love to read, and have a large home library, this fullstack project made as an assignment for Integrify
+              is meant to be a library management system for every home library, so owner can track to whom the books have been loaned.
+            </p>
+            <div class="actions">
+              <button class="btn btn-primary" onclick="window.location.href='https://fullstack-library-project.vercel.app/';">Visit</button>
+              <button class="btn btn-secondary" onclick="window.location.href='https://github.com/rheidi/Fullstack-Library-Project';">Source code</button>
+            </div>
+          </div>
+          <div class="project">
+            <h3 class="title">Calculator</h3>
+            <div class="skills">
+              <span>React</span>
+              <span>TS</span>
+            </div>
+            <p class="description">
+              Suspendisse at efficitur nulla. Aliquam in faucibus augue. Integer
+              in felis porttitor, pulvinar mi at, dignissim urna. In commodo
+              accumsan odio, at scelerisque purus.
+            </p>
+            <div class="actions">
+              <button class="btn btn-primary">Visit</button>
+              <button class="btn btn-secondary">Source code</button>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
     <footer>
 

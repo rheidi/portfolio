@@ -37,12 +37,12 @@ img {
   --primary-color: #cd9b46;
   --primary-light-color: #9e560e;
   --accent-color: #61610f;
-  --black: #201e10;
+  --black: #190f07;
   --white: #e8cf99;
-  --background-color: #190f07;
+  --background-color: #201e10;
 }
 body {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'EB Garamond', sans-serif;
   background-color: var(--black);
   color: var(--white);
   max-width: 2500px;
@@ -91,6 +91,12 @@ header svg {
   z-index: -1;
 }
 
+.profilepic {
+  border-radius: 10px;
+  width: 45%;
+  padding: 1em;
+}
+
 .projects-section {
   text-align: center;
 }
@@ -119,7 +125,7 @@ header svg {
   margin-top: 1.5rem;
 }
 .skills span {
-  background: #1e1e1e;
+  background: #190f07;
   border-radius: 8.5px;
   color: var(--primary-color);
   font-size: 10px;
@@ -130,6 +136,11 @@ header svg {
 }
 
 /* Utility */
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 .container-full {
   width: 70%;
   max-width: 1500px;

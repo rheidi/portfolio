@@ -94,7 +94,7 @@ header svg {
 .profilepic {
   border-radius: 10px;
   width: 45%;
-  padding: 1em;
+  padding: 2em;
 }
 
 .projects-section {
@@ -181,7 +181,7 @@ header svg {
 
 .btn {
   border-radius: 33.5px;
-  padding: 1rem 1.5rem;
+  padding: 1rem;
   border: 0;
   outline: none;
   font-weight: 900;
@@ -193,7 +193,7 @@ header svg {
   background: linear-gradient(
     90deg,
     var(--primary-color) -0.13%,
-    var(--accent-color) 100.17%
+    var(--primary-light-color) 100.17%
   );
   color: var(--black);
 }
@@ -211,6 +211,10 @@ header svg {
 
 .btn:hover {
   transform: translateY(-2px);
+}
+
+.contact {
+  font-size:1.5rem;
 }
 
 footer {

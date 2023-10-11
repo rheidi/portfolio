@@ -29,10 +29,6 @@ ul {
   list-style: none;
 }
 
-img {
-  max-width: 100%;
-  height: auto;
-}
 :root {
   --primary-color: #cd9b46;
   --primary-light-color: #9e560e;
@@ -94,7 +90,7 @@ header svg {
 .profilepic {
   border-radius: 10px;
   width: 45%;
-  padding: 2em;
+  margin-right: 2em;
 }
 
 .projects-section {
@@ -103,6 +99,10 @@ header svg {
 
 .about-me {
   text-align: center;
+}
+
+a {
+  text-decoration: none;
 }
 
 .projects {
@@ -188,6 +188,9 @@ header svg {
   text-transform: uppercase;
   cursor: pointer;
   transition: all 0.3s ease;
+  display: inline-block;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 14px
 }
 .btn-primary {
   background: linear-gradient(
@@ -215,6 +218,10 @@ header svg {
 
 .contact {
   font-size:1.5rem;
+}
+
+.icon {
+  color:#cd9b46;
 }
 
 footer {

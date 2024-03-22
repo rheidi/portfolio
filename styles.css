@@ -128,7 +128,7 @@ a {
   background: #190f07;
   border-radius: 8.5px;
   color: var(--primary-color);
-  font-size: 10px;
+  font-size: 12px;
   padding: 0.3rem;
 }
 .actions {
@@ -210,6 +210,15 @@ a {
   -webkit-text-fill-color: transparent;
   background-clip: text;
   text-fill-color: transparent;
+}
+
+.btn-primary-grey {
+  background: linear-gradient(
+    90deg,
+    #E1DCE0 -0.13%,
+    #9E9B98 100.17%
+  );
+  color: var(--black);
 }
 
 .btn:hover {
